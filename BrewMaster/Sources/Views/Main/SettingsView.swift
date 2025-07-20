@@ -655,28 +655,29 @@ struct SettingsView: View {
             }
             
             VStack(spacing: 16) {
-                Text("BrewMaster 是一个为 macOS 设计的现代化 Homebrew 图形界面管理工具。使用 SwiftUI 构建，提供直观、美观的用户界面，让您轻松管理 Homebrew 包和服务。")
+                Text("BrewMaster 是一个为 macOS 设计的现代化 Homebrew 图形界面管理工具。"\n + "
+                使用 SwiftUI 构建，提供直观、美观的用户界面，让您轻松管理 Homebrew 包和服务。")
                     .multilineTextAlignment(.center)
                     .lineLimit(nil)
                     .padding(.horizontal)
                 
                 HStack(spacing: 16) {
                     Button("访问项目主页") {
-                        if let url = URL(string: "https://github.com/yourusername/brewmaster") {
+                        if let url = URL(string: "https://github.com/gaohecheng1/Brew_interface_macOS") {
                             NSWorkspace.shared.open(url)
                         }
                     }
                     .buttonStyle(.bordered)
                     
                     Button("查看更新日志") {
-                        if let url = URL(string: "https://github.com/yourusername/brewmaster/releases") {
+                        if let url = URL(string: "https://github.com/gaohecheng1/Brew_interface_macOS/releases") {
                             NSWorkspace.shared.open(url)
                         }
                     }
                     .buttonStyle(.bordered)
                     
                     Button("反馈问题") {
-                        if let url = URL(string: "https://github.com/yourusername/brewmaster/issues") {
+                        if let url = URL(string: "https://github.com/gaohecheng1/Brew_interface_macOS/issues") {
                             NSWorkspace.shared.open(url)
                         }
                     }
@@ -689,7 +690,7 @@ struct SettingsView: View {
                     .font(.caption)
                     .foregroundColor(.secondary)
                 
-                Text("Built with ❤️ using SwiftUI by xiaoyuan")
+                Text("Built by xiaoyuan using SwiftUI ")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
