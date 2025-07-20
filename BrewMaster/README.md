@@ -33,14 +33,14 @@ BrewMaster是一个为macOS设计的Homebrew图形界面管理工具，使用Swi
 
 ### 方法一：直接下载
 
-1. 从[Releases](https://github.com/yourusername/brewmaster/releases)页面下载最新版本的BrewMaster.app
+1. 从[Releases](https://github.com/gaohecheng1/Brew_interface_macOS/releases)页面下载最新版本的BrewMaster.app
 2. 将应用拖动到Applications文件夹
 3. 启动应用
 
 ### 方法二：从源码构建
 
-1. 克隆仓库：`git clone https://github.com/yourusername/brewmaster.git`
-2. 进入项目目录：`cd brewmaster`
+1. 克隆仓库：`git clone https://github.com/gaohecheng1/Brew_interface_macOS.git`
+2. 进入项目目录：`cd Brew_interface_macOS/BrewMaster`
 3. 使用Xcode打开项目：`open Package.swift`
 4. 在Xcode中构建并运行项目
 
@@ -126,4 +126,4 @@ BrewMaster采用MVVM（Model-View-ViewModel）架构模式，使用SwiftUI构建
 如有任何问题或建议，请通过以下方式联系我们：
 
 - 电子邮件：your.email@example.com
-- GitHub Issues：[https://github.com/yourusername/brewmaster/issues](https://github.com/yourusername/brewmaster/issues)
+- GitHub Issues：[https://github.com/gaohecheng1/Brew_interface_macOS/issues](https://github.com/gaohecheng1/Brew_interface_macOS/issues)
