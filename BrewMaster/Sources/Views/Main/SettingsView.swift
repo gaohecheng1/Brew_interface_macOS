@@ -655,8 +655,7 @@ struct SettingsView: View {
             }
             
             VStack(spacing: 16) {
-                Text("BrewMaster 是一个为 macOS 设计的现代化 Homebrew 图形界面管理工具。"\n + "
-                使用 SwiftUI 构建，提供直观、美观的用户界面，让您轻松管理 Homebrew 包和服务。")
+                Text("BrewMaster 是一个为 macOS 设计的现代化 Homebrew 图形界面管理工具。\n使用 SwiftUI 构建，提供直观、美观的用户界面，让您轻松管理 Homebrew 包和服务。")
                     .multilineTextAlignment(.center)
                     .lineLimit(nil)
                     .padding(.horizontal)

@@ -35,7 +35,6 @@ struct Constants {
     // MARK: - 命令
     
     struct Commands {
-        static let brewPath = "/usr/local/bin/brew"
         static let brewInfo = "brew info --json=v1 --installed"
         static let brewList = "brew list"
         static let brewSearch = "brew search --json=v1"
